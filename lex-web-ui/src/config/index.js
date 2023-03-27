@@ -82,17 +82,16 @@ const configDefault = {
     v2BotLocaleId: '',
 
     // Lex bot name
-    botName: 'WebUiOrderFlowers',
+    botName: 'MARTA',
 
     // Lex bot alias/version
     botAlias: '$LATEST',
 
     // instruction message shown in the UI
-    initialText: 'You can ask me for help ordering flowers. ' +
-      'Just type "order flowers" or click on the mic and say it.',
+    initialText: 'Hello! I am MARTA and here to help answer your questions on all things CapTech. What can I help you with today?',
 
     // instructions spoken when mic is clicked
-    initialSpeechInstruction: 'Say "Order Flowers" to get started',
+    initialSpeechInstruction: 'Say a word',
 
     // initial Utterance to send to bot if defined
     initialUtterance: '',
@@ -142,7 +141,7 @@ const configDefault = {
 
   ui: {
     // this dynamicall changes the pageTitle injected at build time
-    pageTitle: 'Order Flowers Bot',
+    pageTitle: 'MARTA chatbot Bot',
 
     // when running as an embedded iframe, this will be used as the
     // be the parent origin used to send/receive messages
@@ -168,7 +167,7 @@ const configDefault = {
     toolbarColor: 'red',
 
     // chat window title
-    toolbarTitle: 'Order Flowers',
+    toolbarTitle: 'MARTA chatbot',
 
     // logo used in toolbar - also used as favicon not specificied
     toolbarLogo: '',

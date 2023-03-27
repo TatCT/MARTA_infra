@@ -8,17 +8,17 @@
     "apiGatewayEndpoint" : ""
   },
   "lex": {
-    "botName": "WebUiOrderFlowers",
-    "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Order Flowers' to get started."
+    "botName": "MARTA",
+    "initialText": "Hello! I am MARTA and here to help answer your questions on all things CapTech. What can I help you with today?",
+    "initialSpeechInstruction": "Say a word to get started."
   },
   "polly": {
     "voiceId": "Salli"
   },
   "ui": {
     "parentOrigin": "http://localhost:8080",
-    "pageTitle": "Order Flowers Bot",
-    "toolbarTitle": "Order Flowers"
+    "pageTitle": "MARTA chatbot Bot",
+    "toolbarTitle": "MARTA chatbot"
   },
   "recorder": {
     "preset": "speech_recognition"

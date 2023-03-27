@@ -686,7 +686,7 @@ lexWebUiLoader.load()
   })
   .then(function () {
     // send an utterance to the bot
-    return lexWebUiLoader.api.postText('Buy flowers', lexWebUiLoader.api.MESSAGE_TYPE_HUMAN)
+    return lexWebUiLoader.api.postText('example utterance', lexWebUiLoader.api.MESSAGE_TYPE_HUMAN)
   })
   .catch(function (error) {
     console.error('oops... ', error);

@@ -14,9 +14,9 @@
     "waitingForAgentMessageIntervalSeconds": 60
   },
   "lex": {
-    "botName": "OrderFlowers",
-    "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Order Flowers' to get started.",
+    "botName": "MARTA",
+    "initialText": "Hello! I am MARTA and here to help answer your questions on all things CapTech. What can I help you with today?",
+    "initialSpeechInstruction": "Say a word to get started.",
     "initialUtterance": "",
     "region": "us-east-1",
     "retryOnLexPostTextTimeout": false,
@@ -27,7 +27,7 @@
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
-    "toolbarTitle": "Order Flowers",
+    "toolbarTitle": "MARTA chatbot",
     "toolbarLogo": "",
     "positiveFeedbackIntent": "Thumbs up",
     "negativeFeedbackIntent": "Thumbs down",
