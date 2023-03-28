@@ -298,7 +298,7 @@ Parameters:
 
     WebAppConfNegativeFeedback:
         Type: String
-        Default: Thumbs down
+        Default: AWS::NoValue
         Description: >
             This optional parameter defines the message to be sent by the user upon pressing
             a feedback button signaling a negative feedback.
@@ -306,7 +306,7 @@ Parameters:
 
     WebAppConfPositiveFeedback:
         Type: String
-        Default: Thumbs up
+        Default: AWS::NoValue
         Description: >
             This optional parameter defines the message to be sent by the user upon pressing
             a feedback button signaling a positive feedback.
