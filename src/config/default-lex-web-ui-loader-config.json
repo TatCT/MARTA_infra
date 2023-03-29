@@ -1,7 +1,7 @@
 {
   "region": "us-east-1",
   "cognito": {
-    "poolId": "e247967b-e528-428f-8a67-dcd4c1071e68",
+    "poolId": "",
     "aws_cognito_region": "us-east-1",
     "region": "us-east-1"
   },
@@ -23,7 +23,7 @@
     "retryCountPostTextTimeout": 1,
     "v2BotId": "AZ8FMDXLS0",
     "v2BotAliasId": "TSTALIASID",
-    "v2BotLocaleId": "en-US"
+    "v2BotLocaleId": "en_US"
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
