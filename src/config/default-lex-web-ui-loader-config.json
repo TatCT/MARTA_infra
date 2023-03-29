@@ -1,7 +1,7 @@
 {
   "region": "us-east-1",
   "cognito": {
-    "poolId": "",
+    "poolId": "e247967b-e528-428f-8a67-dcd4c1071e68",
     "aws_cognito_region": "us-east-1",
     "region": "us-east-1"
   },
@@ -21,9 +21,9 @@
     "region": "us-east-1",
     "retryOnLexPostTextTimeout": false,
     "retryCountPostTextTimeout": 1,
-    "v2BotId": "",
-    "v2BotAliasId": "",
-    "v2BotLocaleId": ""
+    "v2BotId": "AZ8FMDXLS0",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en-US"
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
