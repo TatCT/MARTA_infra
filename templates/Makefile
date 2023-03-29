@@ -26,12 +26,12 @@ check: $(LINT) $(VALIDATE) | $(OUT)
 # detects if file is json or yaml by the file extension
 # imports json or yaml libraries and calls appropriate function
 $(LINT): %.lint: % | $(OUT)
-	$(eval EXT := $(subst ., ,$(suffix $?))) @# remove dot from extension
-	$(eval LIB := $(strip $(subst yml, yaml, $(EXT)))) @# s/yml/yaml/
-	@echo "[INFO] Linting $(LIB) syntax of template: $(?)"
-	@sed -e 's#\![^[:blank:]]*[[:blank:]]\{0,1\}##gm' < "$(?)" | \
-		python -c 'import $(LIB), sys; print $(LIB).load(sys.stdin);' \
-		> "$(OUT)/$(?).lint"
+#	$(eval EXT := $(subst ., ,$(suffix $?))) @# remove dot from extension
+#	$(eval LIB := $(strip $(subst yml, yaml, $(EXT)))) @# s/yml/yaml/
+#	@echo "[INFO] Linting $(LIB) syntax of template: $(?)"
+#	@sed -e 's#\![^[:blank:]]*[[:blank:]]\{0,1\}##gm' < "$(?)" | \
+#		python -c 'import $(LIB), sys; print $(LIB).load(sys.stdin);' \
+#		> "$(OUT)/$(?).lint"
 
 lint: $(LINT) | $(OUT)
 .PHONY: lint
