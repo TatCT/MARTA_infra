@@ -461,49 +461,7 @@ This project provides a simple HTTP server to serve the sample site.
 You can run the server using [Node.js](https://nodejs.org) on your local
 machine or a test server.
 
-The chatbot UI requires proper configuration values in the files located
-under the [src/config](src/config) directory. Modify the values in the
-`lex-web-ui-loader-config.json` file under the `src/config` directory.
-If you deployed the demo site using the CloudFormation templates provided
-by this project, you can copy the automatically generated config files
-from the S3 buckets to your development host.
-
-As a minimum,you would need to pass an existing Cognito Pool Id
-and Lex Bot name. For example, set the appropriate values in the
-`src/config/lex-web-ui-loader-config.json` file:
-```JSON
-  ...
-  cognito: {
-    "poolId": "us-east-1:deadbeef-fade-babe-cafe-0123456789ab"
-  },
-  lex: {
-    "botName": "myHelpBot"
-  }
-  ...
-```
-
-Before you run the local development server, you need to install the
-development dependencies with the command:
-```shell
-npm install
-```
-To start the HTTP server web on port `8000`, issue the command:
-```shell
-# serves http://localhost:8000/index.html
-# and http://localhost:8000/parent.html
-npm start
-```
-
-If you want to hack the libraries under the `src/lex-web-ui-loader`
-directory, the project provides a hot reloadable [webpack dev
-server](https://github.com/webpack/webpack-dev-server) setup with the
-following command:
-```shell
-# runs on port 8000
-npm run dev
-```
-
-For a more advanced local host development and test environment, see the
+For local host development and test environment, see the
 [Dependencies and Build Setup](lex-web-ui#dependencies-and-build-setup)
 documentation of the chatbot UI component.
 

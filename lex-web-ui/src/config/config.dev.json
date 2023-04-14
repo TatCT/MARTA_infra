@@ -1,18 +1,18 @@
 {
   "region": "us-east-1",
   "cognito": {
-    "poolId": "",
-    "appUserPoolClientId": "",
+    "poolId": "us-east-1:e247967b-e528-428f-8a67-dcd4c1071e68",
+    "appUserPoolClientId": "4hnil5ms9mj5jpjtcqdfnjnm0l",
     "appUserPoolName": "",
-    "appDomainName": "",
+    "appDomainName": "dq65gyxilzgpi.cloudfront.net",
     "aws_cognito_region": "us-east-1",
     "region": "us-east-1"
   },
   "lex": {
-    "v2BotId": "",
-    "v2BotAliasId": "",
-    "v2BotLocaleId": "",
-    "botName": "",
+    "v2BotId": "AZ8FMDXLS0",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en_US",
+    "botName": "marta-demo",
     "botAlias": "$LATEST",
     "initialText": "Hello! I am MARTA and here to help answer your questions on all things CapTech. What can I help you with today?",
     "initialSpeechInstruction": "Say a word to get started.",
