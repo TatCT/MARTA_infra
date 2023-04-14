@@ -1,6 +1,20 @@
 # Sample Amazon Lex Web Interface
 
 # Overview
+
+THE INFRASTRUCTURE FOR THIS PROJECT HAS BEEN DECOMISSIONED. 
+TO BRING IT BACK UP, RUN THE FOLLOWING:
+
+`aws cloudformation create-stack --stack-name marta-stack`
+
+This repo is a fork of an Amazon repo which provides scaffolding, 
+instructions, and examples for building a UI for amazon lex and
+amazon polly.
+
+To delete the stack you created earlier:
+
+`aws cloudformation delete-stack --stack-name marta-stack`
+
 This is a sample [Amazon Lex](https://aws.amazon.com/lex/)
 web interface. It provides a chatbot UI component that can be integrated
 in your website. The interface allows a user to interact with a Lex bot directly
@@ -460,6 +474,8 @@ UI. You can run a development version of this sample site on your machine.
 This project provides a simple HTTP server to serve the sample site.
 You can run the server using [Node.js](https://nodejs.org) on your local
 machine or a test server.
+
+Just run npm start from the root of this project.
 
 For local host development and test environment, see the
 [Dependencies and Build Setup](lex-web-ui#dependencies-and-build-setup)

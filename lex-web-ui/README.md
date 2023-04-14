@@ -653,6 +653,17 @@ see the
 [ResponseCard documentation](http://docs.aws.amazon.com/lex/latest/dg/API_runtime_ResponseCard.html).
 
 ## Dependencies and Build Setup
+
+IF YOU ENCOUNTER THE FOLLOWING ERROR:
+
+`digital envelope routines::unsupported` 
+
+then run:
+
+`export NODE_OPTIONS=--openssl-legacy-provider`
+
+and retry.
+
 The application dependencies are managed using
 [npm](https://www.npmjs.com/). The build artifacts are bundled using
 [webpack](https://webpack.js.org/). Initial scaffolding of this project
